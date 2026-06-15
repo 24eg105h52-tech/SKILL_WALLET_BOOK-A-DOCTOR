@@ -7,7 +7,7 @@ const app = express();
 //////dotenv config/////////////////////
 dotenv.config();
 connectToDB();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 /////////////////middlewares////////////////
 app.use(express.json());
