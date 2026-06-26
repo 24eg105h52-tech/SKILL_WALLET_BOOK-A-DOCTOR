@@ -261,8 +261,9 @@ const appointmentController = async (req, res) => {
 
 const getAllUserAppointments = async (req, res) => {
   try {
+    const userId = req.body.userId || req.query.userId;
     const allAppointments = await appointmentSchema.find({
-      userId: req.body.userId,
+      userId,
     });
 
     const doctorIds = allAppointments.map(
