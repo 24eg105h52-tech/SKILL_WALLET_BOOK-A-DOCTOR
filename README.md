@@ -1,4 +1,5 @@
-# BOOK A DOCTOR USING MERN
+HealHub - Care at Your Fingertips
+HealHub is a full-stack healthcare booking application built with a React/Vite frontend and an Express/MongoDB backend. It supports patient and doctor registration, secure phone/password authentication, role-aware dashboards, and appointment management.
 ## Full Stack Development Documentation
 
 This documentation provides a comprehensive overview of the **MedicareBook (Book a Doctor)** platform, built using the MERN stack.
@@ -7,7 +8,7 @@ This documentation provides a comprehensive overview of the **MedicareBook (Book
 
 ## 1. Introduction
 
-* **Project Title:** Book a Doctor Using MERN
+* **Project Title:** HealHub - Care at Your Fingertips
 * **Domain:** Healthcare Management System
 * **Technology Stack:** MongoDB, Express.js, React.js, Node.js
 * **Objective:** To provide an online platform for patients to search doctors, book appointments, upload medical records, and manage consultations digitally.
